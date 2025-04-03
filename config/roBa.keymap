@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&kp LS(LG(S))  &trans           &trans         &trans             &kp RIGHT_BRACKET                      &kp F1            &mkp MB4    &kp F5         &mkp MB5  &kp F5
-&trans         &kp EXCLAMATION  &kp AMPERSAND  &kp LS(BACKSLASH)  &kp LS(NUMBER_8)   &trans      &trans  &kp UNDERSCORE    &mkp MB1    &mkp MB3       &mkp MB2  &kp F10
-&trans         &trans           &kp SQT        &kp DOUBLE_QUOTES  &kp RIGHT_BRACE    &trans      &trans  &kp LEFT_BRACKET  &kp DOLLAR  &kp BACKSLASH  &trans    &kp F11
-&trans         &trans           &trans         &trans             &trans             &trans      &trans  &trans                                                 &kp F12
+&kp LS(LG(S))  &trans           &trans         &trans             &kp RIGHT_BRACKET                               &kp F1            &mkp MB4    &kp F5                &mkp MB5             &kp F5
+&trans         &kp EXCLAMATION  &kp AMPERSAND  &kp LS(BACKSLASH)  &kp LS(NUMBER_8)   &trans      &trans           &kp UNDERSCORE    &mkp MB1    &mkp MB3              &mkp MB2             &kp F10
+&trans         &trans           &kp SQT        &kp DOUBLE_QUOTES  &kp RIGHT_BRACE    &trans      &kp RIGHT_SHIFT  &kp LEFT_BRACKET  &kp DOLLAR  &kp NON_US_BACKSLASH  &kp LS(NON_US_BSLH)  &kp F11
+&trans         &trans           &trans         &trans             &trans             &trans      &trans           &trans                                                                   &kp F12
             >;
 
             sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
@@ -89,7 +89,7 @@
 
         NUM {
             bindings = <
-&kp MINUS                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                    &kp AT_SIGN       &trans          &trans          &trans           &kp BACKSPACE
+&kp MINUS                &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                                                    &kp BACKSLASH     &trans          &trans          &trans           &kp BACKSPACE
 &kp SLASH                &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE   &kp LS(NUMBER_9)  &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp COLON
 &mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp UNDERSCORE               &kp RIGHT_SHIFT  &kp PIPE          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RSHIFT
 &trans                   &kp N0        &trans        &kp DEL       &kp ENTER     &kp BACKSPACE                &trans           &trans                                                             &kp PIPE
