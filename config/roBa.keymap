@@ -78,10 +78,10 @@
 
         FUNCTION {
             bindings = <
-&kp LS(LG(S))  &trans           &trans         &trans             &kp RIGHT_BRACKET                               &kp F1            &mkp MB4    &kp F5        &mkp MB5           &kp F5
-&trans         &kp EXCLAMATION  &kp AMPERSAND  &kp LS(BACKSLASH)  &kp LS(NUMBER_8)   &trans      &trans           &kp UNDERSCORE    &mkp MB1    &mkp MB3      &mkp MB2           &kp F10
-&trans         &trans           &kp SQT        &kp DOUBLE_QUOTES  &kp RIGHT_BRACE    &trans      &kp RIGHT_SHIFT  &kp LEFT_BRACKET  &kp DOLLAR  &kp KP_MINUS  &kp LS(BACKSLASH)  &kp F11
-&trans         &trans           &trans         &trans             &trans             &trans      &trans           &trans                                                         &kp F12
+&kp LS(LG(S))  &trans           &trans         &trans             &kp RIGHT_BRACKET                               &kp F1            &mkp MB4    &kp F5    &mkp MB5  &kp F5
+&trans         &kp EXCLAMATION  &kp AMPERSAND  &kp LS(BACKSLASH)  &kp LS(NUMBER_8)   &trans      &trans           &kp UNDERSCORE    &mkp MB1    &mkp MB3  &mkp MB2  &kp F10
+&trans         &trans           &kp SQT        &kp DOUBLE_QUOTES  &kp RIGHT_BRACE    &trans      &kp RIGHT_SHIFT  &kp LEFT_BRACKET  &kp DOLLAR  &kp INT1  &trans    &kp F11
+&trans         &trans           &trans         &trans             &trans             &trans      &trans           &trans                                            &kp F12
             >;
 
             sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
